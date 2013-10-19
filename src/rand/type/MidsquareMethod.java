@@ -12,7 +12,6 @@ public class MidsquareMethod {
 	public double makeRandomNumber(double num) {
 		int k = 2;
 		num = Math.pow(num, k);
-		System.out.println("^2" + num);
 		String numStr = Double.toString(num);
 		numStr = "0." + numStr.substring(k + 2, 3 * k + 2);
 		num = Double.parseDouble(numStr);
